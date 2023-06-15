@@ -1,3 +1,5 @@
 FROM    almalinux
-#CMD     ["ping", "-c5", "google.com"]
-ENTRYPOINT  ["ping", "-c5", "google.com"]
+CMD     ["google.com"]
+ENTRYPOINT  ["ping", "-c5"]
+
+#to over come this we will give like the below
